@@ -1,1 +1,43 @@
-/*  your css code here. If applicable */
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: white;
+}
+
+.hero {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	padding: 30 px;
+}
+
+.hero img {
+	width: 500px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.content {
+	width: 220px;
+}
+
+.content h1 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.content p{
+	font-size: 14px;
+	color: #555;
+	margin-bottom: 15px;
+}
+
+.content a {
+	display: inline-block;
+	padding: 10px 10px;
+	background-color: red;
+	color: white;
+	text-decoration: none;
+	border-radius: 6px;
+}
